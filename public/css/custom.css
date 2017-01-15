@@ -1,0 +1,989 @@
+/*
+
+###############################################################################
+################# LARGE SCREENS ###############################################
+###############################################################################
+
+*/
+
+body{
+    background-color: #E9EAFD;
+}
+
+.container{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*
+
+###################################################################################################
+###################################################################################################
+################ MENU NAVEGAÇÃO SUPERIOR ##########################################################
+###################################################################################################
+###################################################################################################
+
+*/
+
+.navbar-inverse {
+    background-color: #2dc3e8;
+    border-color: #2dc3e8;
+}
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #858585;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFF;
+}
+
+.navbar-nav > li{
+  padding-left:35px;
+  padding-right:35px;
+}
+
+#svglogo{
+    margin-top: -12.5%;
+    z-index: 6000000;
+    margin-left: 15%;
+}
+
+/*
+
+###################################################################################################
+###################################################################################################
+################ CONTEÚDO ABAIXO DO MENU ##########################################################
+###################################################################################################
+###################################################################################################
+
+*/
+
+
+.content-margin-top{
+    margin-top: 7.5%;
+    padding-left: 2%;
+    background-color: #fff;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    color:#2dc3e8;
+}
+
+.main-product-description{
+   background-color:#fff;
+   margin-left: 2.5%;
+   margin-top: 1%;
+}
+
+.main-product-comment {
+    background-color: #fff;
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 60.6%;
+}
+
+.main-product-description:last-child{
+   background-color:#fff;
+   margin-left: 2.5%;
+   margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.main-product-comment:last-child{
+    background-color: #fff;
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 60.6%;
+     margin-bottom: 1%;
+}
+
+
+.user-block {
+    padding-left: 2.5%;
+    padding-top: 2.5%;
+}
+
+.user-block2 {
+    padding-top:0;
+    padding-left: 2.5%;
+}
+
+.user-block2:last-child{
+    padding-bottom: 2.6%;
+}
+
+.user-block img, .user-block2 img {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.content-spacing{
+    padding-left: 2.5%;
+}
+
+.span-azul{
+    color:#2dc3e8;
+}
+
+.span-cinzento{
+    color:#858585; 
+}
+
+.content-preview img{
+    width: 480px;
+    height: 360px;
+}
+
+hr {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.content-preview-bottom{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.blueIconButton{
+    background-color:#2dc3e8;
+    color: #fff;
+    border: 0;
+    width: 15%;
+}
+
+.descript-caption {
+    background-color: #2dc3e8;
+   
+    width: 93.1%;
+    height: 100px;
+    position: absolute;
+    margin-top: -23%;
+    opacity: 0.8;
+}
+
+.descript-caption h4{
+    font-size: 23px;
+    color: #fff;
+    padding-left: 2.5%;
+    padding-top: 2%;
+    z-index: 3000;
+}
+
+.playIcon {
+    position: absolute;
+    margin-top: -55%;
+    color: #fff;
+    margin-left: 42.5%;
+    opacity: 0.8;
+}
+
+.comentario{
+    margin-left:8.5%;
+}
+
+.caixaComentario {
+    width: 90%;
+    margin-left: 10%;
+}
+
+.img-capa{
+    background-image: url('https://newevolutiondesigns.com/images/freebies/city-wallpaper-5.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}
+
+.img-profile{
+    min-width:110px;
+    min-height:110px;
+    max-width:110px;
+    max-height:110px;
+    border: 3px solid #fff;
+    margin-top: -5%;
+    margin-left: 2%;
+}
+
+.img-responsive2{
+    display: block;
+    max-width: 100%;
+    height: 105px;
+    min-width: 100%;
+}
+
+/*
+
+###################################################################################################
+###################################################################################################
+################ SEGUNDO MENU #####################################################################
+###################################################################################################
+###################################################################################################
+
+*/
+
+.navbar-secundario{
+    background-color: #fff;
+    width: 100%;
+    content: "";
+    z-index: 20;
+    height: 75px;
+    margin-top: -4.5%;
+}
+
+.navbar-nav > li {
+    padding-left: 35px;
+    padding-right: 35px;
+ 
+}
+
+.navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus,.navbar-nav>.active>a:hover{
+    color: #858585;
+    background-color: transparent;
+}
+
+.navbar-right {
+    float: right!important;
+    margin-right: 105px;
+}
+
+.fa2{
+    color: #2dc3e8;
+}
+
+.large-menu-text{
+    color: #2dc3e8;
+}
+
+.faActive{
+    color: #858585;
+    background-color: transparent; 
+}
+
+/*
+
+###################################################################################################
+###################################################################################################
+################ CONTEÚDO ABAIXO DO MENU 2 ########################################################
+###################################################################################################
+###################################################################################################
+
+*/
+
+.biblioteca-img-preview-detalhe{
+     width: 33.33333333%;
+    margin-right: -1.8%;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 2.5%;
+}
+
+.biblioteca-img-preview {
+    width: 25%;
+    margin-right: -1.8%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.descript-caption2 {
+   background-color: #2dc3e8;
+    width: 91%;
+    height: 75px;
+    position: absolute;
+    margin-top: -23%;
+    opacity: 0.8;
+}
+
+.descript-caption2 h4{
+    font-size: 18px;
+    color: #fff;
+    padding-left: 2.5%;
+    padding-top: 1%;
+    z-index: 3000;
+}
+
+
+.descript-caption3 {
+    background-color: #2dc3e8;
+    width: 93%;
+    height: 100px;
+    position: absolute;
+    margin-top: -23%;
+    opacity: 0.8;
+}
+
+.descript-caption3 h4{
+    font-size: 18px;
+    color: #fff;
+    padding-left: 2.5%;
+    padding-top: 1%;
+    z-index: 3000;
+}
+
+
+.description-biblioteca-detalhe{
+    margin-top: 1%;
+    background-color: #fff;
+    width: 835px;
+    height: 304px;
+    margin-left: 20px;
+}
+
+.description-sobre{
+    margin-top: 1%;
+    background-color: #fff;
+    height: auto;
+    margin-left: 25px;
+    margin-bottom: 2.5%;
+}
+
+.description-sobre-detalhe{
+    margin-top: 1%;
+    background-color: #fff;
+    width: 800px;
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 2.5%;
+}
+
+.edit-pencil{
+    margin-left: 92%;
+    margin-top: 1%;
+    position: absolute;
+    color: #858585;
+}
+
+.btn-apagar{
+    background-color: #2dc3e8;
+    color: #fff;
+    margin-left: 10.5%;
+    width: 150px;
+    margin-bottom: 2.5%;
+}
+
+/*
+
+###################################################################################################
+###################################################################################################
+################ LOGIN/REGISTER ###################################################################
+###################################################################################################
+###################################################################################################
+
+*/
+
+
+.bgLogin{
+     background-image: url('../imagens/bg.png');
+     background-size: contain;
+    background-repeat: repeat;
+    width: 100vw;
+    height: 100vh;
+ 
+}
+
+
+.panel-login {
+	border-color: #ccc;
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+.panel-login>.panel-heading {
+	color: #00415d;
+	background-color: #fff;
+	border-color: #fff;
+	text-align:center;
+}
+.panel-login>.panel-heading a{
+	text-decoration: none;
+	color: #666;
+	font-weight: bold;
+	font-size: 15px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login>.panel-heading a.active{
+	color: #666;
+    
+	font-size: 18px;
+}
+.panel-login>.panel-heading hr{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	clear: both;
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+	background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+	height: 45px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login input:hover,
+.panel-login input:focus {
+	outline:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-color: #ccc;
+}
+.btn-login {
+	background-color: #2dc3e8;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #59B2E6;
+}
+.btn-login:hover,
+.btn-login:focus {
+	color: #fff;
+	background-color: #2dc3e8;
+	border-color: #53A3CD;
+}
+.forgot-password {
+	text-decoration: underline;
+	color: #888;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+	text-decoration: underline;
+	color: #666;
+}
+
+.btn-register {
+	background-color:#59B2E6;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color:  #59B2E6;
+}
+.btn-register:hover,
+.btn-register:focus {
+	color: #fff;
+	background-color:  #59B2E6;
+	border-color:  #59B2E6;
+}
+
+.loginRow{
+    margin-top: 10%;
+   
+}
+
+#Layer_1{
+    margin-left: -36%;
+    margin-top: 5%;
+}
+
+.btnSpecial {
+        display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #fff;
+    height: 55px;
+    margin-top: -2%;
+}
+
+#login-form-link.col-xs-6.btnSpecial.active, #register-form-link.col-xs-6.btnSpecial.active{
+    background-color:  #59B2E6;
+}
+
+/*
+
+###################################################################################################
+###################################################################################################
+################ EDITAR PERFIL  ###################################################################
+###################################################################################################
+###################################################################################################
+
+*/
+
+
+.editarPerfilbg{
+    background-color: #fff;
+    width: 98%;
+    height: 750px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 7.9%;
+    margin-bottom: 1%;
+}
+
+#Capa_1{
+  
+    position: absolute;
+    margin-top: 2.7%;
+    margin-left: 10%;
+   
+}
+
+.fagear{
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 2.5%;
+    color: #59B2E6;
+    
+}
+
+.fa-gear.active, #capa_1.active{
+    border-bottom: solid #59B2E6;
+}
+
+.alterarNome{
+    margin-top: 15%;
+    position: absolute;
+    margin-left: 10%;
+}
+
+#nomeAntigo{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 10%;
+    width: 30%;
+}
+
+.nomeAntigoText{
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 45%;
+    width: 30%;
+}
+
+#novoNome{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 10%;
+    width: 30%;
+}
+
+.nomeNovoText{
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 45%;
+    width: 30%;
+}
+
+.alterarEmail{
+     margin-top: 35%;
+    position: absolute;
+    margin-left: 10%;
+}
+
+.emailAntigoText{
+     position: absolute;
+    margin-top: 41%;
+    margin-left: 45%;
+    width: 30%;
+}
+
+#emailAntigo{
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 10%;
+    width: 30%; 
+}
+
+.emailNovoText{
+    position: absolute;
+    margin-top: 49%;
+    margin-left: 45%;
+    width: 30%;
+}
+
+#emailNovo{
+    position: absolute;
+    margin-top: 48%;
+    margin-left: 10%;
+    width: 30%; 
+}
+
+
+.repetirEmailNovoText{
+    position: absolute;
+    margin-top: 57%;
+    margin-left: 45%;
+    width: 30%;
+}
+
+#repetirEmailNovo{
+    position: absolute;
+    margin-top: 56%;
+    margin-left: 10%;
+    width: 30%; 
+}
+
+.alterarPassword{
+     margin-top: 65%;
+    position: absolute;
+    margin-left: 10%;
+}
+
+#passwordAntiga{
+     position: absolute;
+    margin-top: 70%;
+    margin-left: 10%;
+    width: 30%; 
+}
+
+#passwordNova{
+     position: absolute;
+    margin-top: 78%;
+    margin-left: 10%;
+    width: 30%; 
+}
+
+#repetirPasswordNova{
+     position: absolute;
+    margin-top: 86%;
+    margin-left: 10%;
+    width: 30%; 
+}
+
+.btnSubmeterEditarPerfil{
+    position: absolute;
+    margin-top: 100%;
+    margin-left: 65%;
+    background-color:#59B2E6;
+    color: #fff;
+    width: 20%;
+}
+
+.btnSubmeterEditarPerfil:focus,.btnSubmeterEditarPerfil:active, .btnSubmeterEditarPerfil:hover{
+    color: #fff;
+}
+
+/*
+
+###################################################################################################
+###################################################################################################
+################ Ver PERFIL  ######################################################################
+###################################################################################################
+###################################################################################################
+
+*/
+
+.mudarFotoSession{
+    background-color: #fff;
+    height: 350px;
+    margin-top: 7.5%;
+    margin-left: 2%;
+}
+
+.verInformacoesPerfilSession{
+  background-color: #fff;
+    height: 550px;
+    margin-top: 7.5%;
+    margin-left: 30%;
+    float: inherit;
+    width: 68%;
+    
+}
+
+.fotoInformaPerfil{
+    background-color: #888;
+    width: 100%;
+    height: 250px;
+    margin-top: 4.5%;
+}
+
+.imgInformaPerfil{
+    margin-top: 12.5%;
+    margin-left: 25%;
+}
+
+.btnMudarFoto{
+    background-color: #59B2E6;
+    margin-top: 10%;
+    margin-left: 35%;
+    color: #fff;
+}
+
+.Capa_1Adapt{
+    margin-top: -41%;
+    margin-left: 33%;
+    position: absolute;
+    
+}
+
+.Capa_1Adapt.active{
+    border-bottom: solid #59B2E6;
+}
+
+.fagear2{
+    position: absolute;
+    margin-left: 43%;
+    margin-top: -41%;
+    color: #59B2E6;
+}
+
+#verInformaPerfilBox1{
+    width: 300px;
+    height: 35px;
+    background-color: aliceblue;
+    position: absolute;
+    margin-left: 33%;
+    margin-top: -35%;
+}
+
+#verInformaPerfilBox2{
+    width: 300px;
+    height: 35px;
+    background-color: aliceblue;
+    position: absolute;
+    margin-left: 33%;
+    margin-top: -31%;
+}
+
+#verInformaPerfilBox3{
+    width: 300px;
+    height: 35px;
+    background-color: aliceblue;
+    position: absolute;
+    margin-left: 33%;
+    margin-top: -27%;
+}
+
+#verInformaPerfilBox4{
+    width: 300px;
+    height: 35px;
+    background-color: aliceblue;
+    position: absolute;
+    margin-left: 33%;
+    margin-top: -23%;
+}
+
+#verInformaPerfilBox5{
+    width: 300px;
+    height: 35px;
+    background-color: aliceblue;
+    position: absolute;
+    margin-left: 33%;
+    margin-top: -19%;
+}
+
+#verInformaPerfilBox6{
+    width: 300px;
+    height: 35px;
+    background-color: aliceblue;
+    position: absolute;
+    margin-left: 33%;
+    margin-top: -15%;
+}
+
+#verInformaPerfilBox7{
+    width: 300px;
+    height: 35px;
+    background-color: aliceblue;
+    position: absolute;
+    margin-left: 33%;
+    margin-top: -11%;
+}
+
+.textInformaPerfilBox{
+    padding-top: 0%;
+    padding-left: 6%;
+
+}
+
+#textoPerfilCampo{
+    margin-left: 60%;
+    position: absolute;
+    margin-top: -34.5%;
+}
+
+#textoPerfilCampo2{
+    margin-left: 60%;
+    position: absolute;
+    margin-top: -30.5%;
+}
+
+#textoPerfilCampo3{
+    margin-left: 60%;
+    position: absolute;
+    margin-top: -26.5%;
+}
+
+#textoPerfilCampo4{
+    margin-left: 60%;
+    position: absolute;
+    margin-top: -22.5%;
+}
+
+#textoPerfilCampo5{
+    margin-left: 60%;
+    position: absolute;
+    margin-top: -18.5%;
+}
+
+#textoPerfilCampo6{
+    margin-left: 60%;
+    position: absolute;
+    margin-top: -14.5%;
+}
+
+#textoPerfilCampo7{
+    margin-left: 60%;
+    position: absolute;
+    margin-top: -10.5%;
+}
+
+/*
+
+###################################################################################################
+###################################################################################################
+################ BIBLIOTECA CONTEUDOS #############################################################
+###################################################################################################
+###################################################################################################
+
+*/
+
+
+
+.botaoSelect{
+    margin-left: 4%;
+    margin-top: 2.5%;
+    position: absolute;
+    width: 90%;
+}
+
+.botaoSelect2{
+    margin-left: 4%;
+    margin-top: 14.5%;
+    position: absolute;
+    width: 90%;
+}
+
+.botaoSelect3{
+    margin-left: 4%;
+    margin-top: 26.5%;
+    position: absolute;
+    width: 90%;
+}
+
+.botaoSelect4{
+    margin-left: 4%;
+    margin-top: 38.5%;
+    position: absolute;
+    width: 90%;
+}
+
+
+.botaoLargura{
+    width: 90%;
+}
+
+.dropSelectLargura{
+     width: 90%;
+}
+
+.biblioteca-img-preview2{
+    width: 35%;
+    margin-right: 11px;
+    margin-left: -3%;
+    margin-top: 1.5%;
+}
+
+.descript-caption4{
+    background-color: #2dc3e8;
+    width: 90%;
+    height: 69px;
+    position: absolute;
+    margin-top: -23%;
+    opacity: 0.8;
+}
+
+.descript-caption4 h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+/*
+
+###################################################################################################
+###################################################################################################
+################ BIBLIOTECA geral detalhe #########################################################
+###################################################################################################
+###################################################################################################
+
+*/
+
+.biblioteca-img-preview-detalhe2{
+    width: 33.33333333%;
+    margin-right: -1.8%;
+    margin-left: 1.3%;
+    margin-top: 1%;
+    margin-bottom: 2.5%;
+}
+
+.descript-caption5 {
+    background-color: #2dc3e8;
+    width: 93.2%;
+    height: 100px;
+    position: absolute;
+    margin-top: -23%;
+    opacity: 0.8;
+}
+
+.descript-caption5 h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+.description-biblioteca-detalhe2 {
+    margin-top: 1%;
+    background-color: #fff;
+    width: 827px;
+    height: 404px;
+    margin-left: 20px;
+}
+
+
+/*
+
+###################################################################################################
+###################################################################################################
+################ PUBLICAR #########################################################################
+###################################################################################################
+###################################################################################################
+
+*/
+
